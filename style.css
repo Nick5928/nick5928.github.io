@@ -1,0 +1,22 @@
+.no-shadow{
+  box-shadow: none !important;
+}
+
+.navbar * {
+  color: white;
+}
+
+
+#about-me .box {
+  background-color: rgb(8, 103, 136);
+}
+
+#projects .card{
+  border: 1px solid white !important;
+}
+
+
+#projects .card .img{
+  height: 384px;
+  width: 650px;
+}

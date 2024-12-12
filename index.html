@@ -1,21 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Nicholas Jones</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-    </div>
-  </section>
+
+    <nav class="navbar is-fixed-top">
+      <div class="navbar-brand">
+        <div class="navbar-item">
+          NICHOLAS JONES
+        </div>
+
+        <a class="navbar-item" href="https://www.linkedin.com/nicholas-w-jones" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path d="M22.23 0H1.77A1.75 1.75 0 0 0 0 1.75v20.5A1.75 1.75 0 0 0 1.77 24h20.46A1.75 1.75 0 0 0 24 22.25V1.75A1.75 1.75 0 0 0 22.23 0ZM7.06 20.47H3.56V9h3.5ZM5.31 7.48A2.04 2.04 0 1 1 7.35 5.44a2.04 2.04 0 0 1-2.04 2.04Zm15.15 13h-3.5v-5.78c0-1.38-.03-3.16-1.92-3.16s-2.21 1.5-2.21 3.05v5.89h-3.5V9h3.36v1.57h.05a3.7 3.7 0 0 1 3.34-1.84c3.57 0 4.23 2.35 4.23 5.4Z"/>
+          </svg>          
+        </a>
+
+        <a class="navbar-item" href="https://github.com/nick5928" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path d="M12 .297C5.375.297 0 5.672 0 12.297c0 5.297 3.438 9.797 8.207 11.387.6.113.82-.26.82-.577 0-.286-.01-1.04-.015-2.04-3.338.724-4.042-1.614-4.042-1.614-.546-1.386-1.333-1.756-1.333-1.756-1.09-.744.083-.729.083-.729 1.203.085 1.835 1.236 1.835 1.236 1.07 1.835 2.807 1.305 3.49.997.107-.775.42-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.932 0-1.31.468-2.383 1.235-3.222-.123-.303-.535-1.523.118-3.176 0 0 1.007-.322 3.3 1.23.957-.266 1.983-.4 3.003-.405 1.02.005 2.047.139 3.006.405 2.29-1.552 3.295-1.23 3.295-1.23.655 1.653.243 2.873.12 3.176.77.84 1.233 1.913 1.233 3.222 0 4.61-2.807 5.63-5.478 5.922.43.372.815 1.102.815 2.222 0 1.606-.015 2.902-.015 3.293 0 .32.216.694.825.577C20.565 22.09 24 17.59 24 12.297 24 5.672 18.627.297 12 .297z"/>
+          </svg>
+        </a>
+
+        <a class="navbar-item" href="mailto:nwjones2024@gmail.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path d="M20 4H4C2.89 4 2 4.89 2 6V18C2 19.1 2.89 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.89 21.1 4 20 4ZM20 6V6.01L12 11L4 6.01V6H20ZM4 18V8L12 13L20 8V18H4Z"/>
+          </svg>
+        </a>
+        
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#home">HOME</a>
+          <a class="navbar-item" href="#about-me">ABOUT ME</a>
+          <a class="navbar-item" href="#projects">PROJECTS</a>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="section is-large" id="home">
+      <div class="container has-text-centered">
+        <div class="container is-flex is-justify-content-center">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="https://bulma.io/assets/images/placeholders/128x128.png" />
+          </figure>
+        </div>
+        <h1 class="title is-1">Hello I am Nicholas Jones</h1>
+        <p class="subtitle is-3">A dedicated computer science student, applying knowledge of web development and automation to create impactful projects and enhance problem-solving skills.</p>
+      </div>
+    </section>
+
+
+    <section class="section is-large" id="about-me">
+      <div class="container has-text-centered">
+        <h1 class="title is-2">ABOUT ME</h1>
+        <hr>
+        <p class="subtitle">Here you'll find more information about me, what I do, and my current skills, primarily in programming and technology.</p>
+        <div class="columns">
+          <div class="column">
+            <h1 class="title">Let me introduce myself</h1>
+            <div class="container has-text-left">
+              <p class="subtitle is-5">I'm Nicholas Jones, a passionate Computer Science student from Roanoke Rapids, NC, with a strong enthusiasm for software development and problem-solving.</p>
+              <p class="subtitle is-5">
+                My academic journey at East Carolina University has provided me with a solid foundation in algorithms, data structures, and machine learning, which I apply to real-world projects. 
+                I'm particularly skilled in React.js, Node.js, Python, and JavaScript, which I use to develop web applications and automate complex processes.
+              </p>
+              <p class="subtitle is-5">
+                Throughout my internships, I’ve successfully automated workflows, including processes in ServiceNow and GitHub to Azure DevOps migrations, streamlining efficiency for the IT departments. 
+                I’ve also worked on various software projects, including a finance manager web app and a meal planning application, both of which allowed me to refine my skills in backend development, data visualization, and database management.
+              </p>
+              <p class="subtitle is-5">
+                I’m committed to continuous learning and eager to contribute to innovative projects as a software development intern. 
+                Let’s connect and discuss how I can bring my technical expertise and problem-solving skills to your team.
+              </p class="subtitle is-5">
+            </div>
+          </div>
+
+
+          <div class="column">
+            <h1 class="title">My skills</h1>
+            <div class="container has-text-left">
+              <h1 class="title is-4 mb-3">Coding Languages:</h1>
+              <div class="container is-flex">
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mr-1">
+                  <p class="subtitle is-6">Python</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Java</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">JavaScript</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">HTML/CSS</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">C/C++</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">C#</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 ml-1">
+                  <p class="subtitle is-6">Groovy</p>
+                </div>
+              </div>
+              <h1 class="title is-4 mb-3">Tools:</h1>
+              <div class="container is-flex">
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mr-1">
+                  <p class="subtitle is-6">React.js</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Node.js</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Express.js</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">jQuery</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Flask</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Sinatra</p>
+                </div>
+              </div>
+              <h1 class="title is-4 mb-3">Version Control:</h1>
+              <div class="container is-flex">
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mr-1">
+                  <p class="subtitle is-6">GitHub</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Gitlab</p>
+                </div>
+              </div>
+
+              <h1 class="title is-4 mb-3">Database Systems:</h1>
+              <div class="container is-flex">
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mr-1">
+                  <p class="subtitle is-6">PostgreSQL</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">SQLite</p>
+                </div>
+              </div>
+
+
+              
+              <h1 class="title is-4 mb-3">Other Skills:</h1>
+              <div class="container is-flex">
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mr-1">
+                  <p class="subtitle is-6">Restful API</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Agile</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">JIRA</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Word</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Excel</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Outlook</p>
+                </div>
+                <div class="box no-shadow is-rounded px-4 py-2 mb-3 mx-1">
+                  <p class="subtitle is-6">Teams</p>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section is-large" id="projects">
+      <div class="container has-text-centered">
+        <h1 class="title is-2">PROJECTS</h1>
+        <hr>
+
+        <div class="card">
+          <div class="card-content has-text-left">
+
+            <div class="columns">
+              <div class="column">
+
+                <h1 class="title is-4">Ca$hKeeper</h1>
+                <p class="subtitle is-6"> 
+                  Ca$hKeeper is your comprehensive solution for managing personal finances, designed to provide users with an intuitive, secure, and insightful platform to track income, expenses, budgets, and savings goals. 
+                  It combines user authentication, financial data visualization, and seamless access to empower individuals to take control of their financial journey.
+                </p>
+              </div>
+              <div class="column is-flex is-justify-content-center">
+                
+                <img class="img"
+                  src="./cashkeeper.png"
+                  alt="Image not found"
+                />
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
   </body>
 </html>
